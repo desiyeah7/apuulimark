@@ -1,0 +1,125 @@
+.top-nav {
+  display: flex;             /* Arrange links horizontally */
+  justify-content: right;   /* Center links horizontally */
+     /* Background color of the menu */
+  padding: 10px 0;           /* Top and bottom padding */
+  position: fixed;           /* Fix it at the top */
+  width: 100%;               /* Stretch across the page */
+  top: 0;                    /* Top of the page */
+  z-index: 1000;             /* Keep it on top of other content */
+}
+.img-one{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 50px;       /* adjust position */
+    right: 50px;     /* adjust position */
+    width: 200px;    /* adjust size */
+    height: auto;
+    z-index: 10;     /* ensures it's on top of background */
+  }
+.img-twentyone{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 170px;       /* adjust position */
+    right: 730px;     /* adjust position */
+    width: 70px;    /* adjust size */
+    height: auto;
+    ; }
+.img-twenty{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 600px;       /* adjust position */
+    right: 730px;     /* adjust position */
+    width: 70px;    /* adjust size */
+    height: auto;
+    ; }
+.img-twentythree{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 400px;       /* adjust position */
+    right: 730px;     /* adjust position */
+    width: 70px;    /* adjust size */
+    height: auto;
+    ; }
+.img-twentyfour{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 500px;       /* adjust position */
+    right: 730px;     /* adjust position */
+    width: 70px;   /* adjust size */
+    height: auto;
+   }
+.img-twentyfive{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 280px;       /* adjust position */
+    right: 730px;     /* adjust position */
+    width: 70px;    /* adjust size */
+    height: auto;
+    }
+
+
+
+/* Style for each link */
+.top-nav a {
+  color: blue;              /* Link color */
+  text-decoration: none;     /* Remove underline */
+  margin: 0 15px;            /* Space between links */
+  font-size: 25px;           /* Font size */
+  transition: color 0.3s;    /* Smooth hover effect */
+}
+li {font-size:20px; color:yellow;}
+
+
+/* Hover effect */
+.top-nav a:hover {
+  color: #ffcc00;            /* Change color on hover */
+}
+.highlight {
+  color: #FFD700; /* gold color */
+  font-weight: bold;
+}
+.img-one{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 50px;       /* adjust position */
+    right: 50px;     /* adjust position */
+    width: 200px;    /* adjust size */
+    height: auto;
+    z-index: 10;     /* ensures it's on top of background */
+  }
+.img-two{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 250px;       /* adjust position */
+    right: 800px;     /* adjust position */
+    width: 200px;    /* adjust size */
+    height: auto;
+    ; }
+.img-three{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 400px;       /* adjust position */
+    right: 800px;     /* adjust position */
+    width: 200px;    /* adjust size */
+    height: auto;
+    ; }
+.img-four{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 950px;       /* adjust position */
+    right: 800px;     /* adjust position */
+    width: 200px;    /* adjust size */
+    height: auto;
+   }
+.img-five{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 1150px;       /* adjust position */
+    right: 800px;     /* adjust position */
+    width: 200px;    /* adjust size */
+    height: auto;
+    }
+.img-six{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 590px;       /* adjust position */
+    right: 800px;     /* adjust position */
+    width: 200px;    /* adjust size */
+    height: auto;}
+.img-seven{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 1700px;       /* adjust position */
+    right: 800px;     /* adjust position */
+    width: 200px;    /* adjust size */
+    height: auto;
+     }
+.img-eight{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
+    top: 1000px;       /* adjust position */
+    right: 400px;     /* adjust position */
+    width: 200px;    /* adjust size */
+    height: 300px;
+    }
+h1 {font-family:Times New Roman, serif; font-size:50px;text-align:center;color:#FFDF00;
+  background: linear-gradient(to right, #FFD700, #FFA500);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+p  {line-height: 1.8;font-size:23px;text-align:center;color:#FFFFFF;}
+body {margin:10px 20px 50px 50px; background-image:url('IMG-20251123-WA0022.JPG');background-repeat:no-repeat ;background-attachment: fixed;background-size:cover;filter: blur(0px);)}
+button {height:50px;width:80px;background-color:#87CEFA;float:center;}
