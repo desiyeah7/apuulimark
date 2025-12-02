@@ -121,5 +121,6 @@ h1 {font-family:Times New Roman, serif; font-size:50px;text-align:center;color:#
   color: transparent;
 }
 p  {line-height: 1.8;font-size:23px;text-align:center;color:#FFFFFF;}
-body {margin:10px 20px 50px 50px; background-image:url('IMG-20251123-WA0022.JPG');background-repeat:no-repeat ;background-attachment: fixed;background-size:cover;filter: blur(0px);)}
+body {margin:10px 20px 50px 50px; background-image:url('IMG-20251123-WA0022.jpg');background-repeat:no-repeat ;background-attachment: fixed;background-size:cover;filter: blur(0px);)}
 button {height:50px;width:80px;background-color:#87CEFA;float:center;}
+
