@@ -1,126 +1,237 @@
+/* ------------------------- */
+/* TOP NAVIGATION BAR        */
+/* ------------------------- */
+
 .top-nav {
-  display: flex;             /* Arrange links horizontally */
-  justify-content: right;   /* Center links horizontally */
-     /* Background color of the menu */
-  padding: 10px 0;           /* Top and bottom padding */
-  position: fixed;           /* Fix it at the top */
-  width: 100%;               /* Stretch across the page */
-  top: 0;                    /* Top of the page */
-  z-index: 1000;             /* Keep it on top of other content */
+  display: flex;
+  justify-content: center;   /* center the links */
+  flex-wrap: wrap;           /* allow links to wrap on phones */
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: #111;
 }
-.img-one{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 50px;       /* adjust position */
-    right: 50px;     /* adjust position */
-    width: 200px;    /* adjust size */
-    height: auto;
-    z-index: 10;     /* ensures it's on top of background */
-  }
-.img-twentyone{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 170px;       /* adjust position */
-    right: 730px;     /* adjust position */
-    width: 70px;    /* adjust size */
-    height: auto;
-    ; }
-.img-twenty{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 600px;       /* adjust position */
-    right: 730px;     /* adjust position */
-    width: 70px;    /* adjust size */
-    height: auto;
-    ; }
-.img-twentythree{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 400px;       /* adjust position */
-    right: 730px;     /* adjust position */
-    width: 70px;    /* adjust size */
-    height: auto;
-    ; }
-.img-twentyfour{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 500px;       /* adjust position */
-    right: 730px;     /* adjust position */
-    width: 70px;   /* adjust size */
-    height: auto;
-   }
-.img-twentyfive{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 280px;       /* adjust position */
-    right: 730px;     /* adjust position */
-    width: 70px;    /* adjust size */
-    height: auto;
-    }
 
-
-
-/* Style for each link */
+/* Navigation links */
 .top-nav a {
-  color: blue;              /* Link color */
-  text-decoration: none;     /* Remove underline */
-  margin: 0 15px;            /* Space between links */
-  font-size: 25px;           /* Font size */
-  transition: color 0.3s;    /* Smooth hover effect */
+  color: blue;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 25px;
+  transition: color 0.3s;
 }
-li {font-size:20px; color:yellow;}
 
-
-/* Hover effect */
 .top-nav a:hover {
-  color: #ffcc00;            /* Change color on hover */
+  color: #ffcc00;
 }
-.highlight {
-  color: #FFD700; /* gold color */
-  font-weight: bold;
+
+
+/* ------------------------- */
+/* GENERAL BODY & TEXT       */
+/* ------------------------- */
+
+body {
+  margin: 10px 20px 50px 20px; 
+  background-image: url('IMG-20251123-WA0022.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
-.img-one{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 50px;       /* adjust position */
-    right: 50px;     /* adjust position */
-    width: 200px;    /* adjust size */
-    height: auto;
-    z-index: 10;     /* ensures it's on top of background */
-  }
-.img-two{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 250px;       /* adjust position */
-    right: 800px;     /* adjust position */
-    width: 200px;    /* adjust size */
-    height: auto;
-    ; }
-.img-three{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 400px;       /* adjust position */
-    right: 800px;     /* adjust position */
-    width: 200px;    /* adjust size */
-    height: auto;
-    ; }
-.img-four{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 950px;       /* adjust position */
-    right: 800px;     /* adjust position */
-    width: 200px;    /* adjust size */
-    height: auto;
-   }
-.img-five{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 1150px;       /* adjust position */
-    right: 800px;     /* adjust position */
-    width: 200px;    /* adjust size */
-    height: auto;
-    }
-.img-six{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 590px;       /* adjust position */
-    right: 800px;     /* adjust position */
-    width: 200px;    /* adjust size */
-    height: auto;}
-.img-seven{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 1700px;       /* adjust position */
-    right: 800px;     /* adjust position */
-    width: 200px;    /* adjust size */
-    height: auto;
-     }
-.img-eight{width:300px;border-radius:300px;  position: fixed; /* fixes the image on the screen */
-    top: 1000px;       /* adjust position */
-    right: 400px;     /* adjust position */
-    width: 200px;    /* adjust size */
-    height: 300px;
-    }
-h1 {font-family:Times New Roman, serif; font-size:50px;text-align:center;color:#FFDF00;
+
+h1 {
+  font-family: Times New Roman, serif;
+  font-size: 50px;
+  text-align: center;
   background: linear-gradient(to right, #FFD700, #FFA500);
   -webkit-background-clip: text;
   color: transparent;
 }
-p  {line-height: 1.8;font-size:23px;text-align:center;color:#FFFFFF;}
-body {margin:10px 20px 50px 50px; background-image:url('IMG-20251123-WA0022.jpg');background-repeat:no-repeat ;background-attachment: fixed;background-size:cover;filter: blur(0px);)}
-button {height:50px;width:80px;background-color:#87CEFA;float:center;}
+
+p {
+  line-height: 1.8;
+  font-size: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.highlight {
+  color: #FFD700;
+  font-weight: bold;
+}
+
+li {
+  font-size: 20px; 
+  color: yellow;
+}
+
+
+/* ------------------------- */
+/* RESPONSIVE IMAGES         */
+/* ------------------------- */
+
+/* All images become responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Main profile image */
+.img-one {
+  width: 200px;
+  border-radius: 200px;
+  margin-top: 120px;  /* space so it doesn't touch the menu */
+}
+
+/* Small circular images */
+.img-two,
+.img-three,
+.img-four,
+.img-five,
+.img-six,
+.img-seven,
+.img-eight,
+.img-twenty,
+.img-twentyone,
+.img-twentythree,
+.img-twentyfour,
+.img-twentyfive {
+  width: 70px;
+  height: auto;
+  border-radius: 70px;
+  margin: 10px auto;
+}
+
+
+/* ------------------------- */
+/* BUTTON STYLE              */
+/* ------------------------- */
+
+button {
+  height: 50px;
+  width: 80px;
+  background-color: #87CEFA;
+  display: block;
+  margin: 10px auto;
+}/* ------------------------- */
+/* TOP NAVIGATION BAR        */
+/* ------------------------- */
+
+.top-nav {
+  display: flex;
+  justify-content: center;   /* center the links */
+  flex-wrap: wrap;           /* allow links to wrap on phones */
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: #111;
+}
+
+/* Navigation links */
+.top-nav a {
+  color: blue;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 25px;
+  transition: color 0.3s;
+}
+
+.top-nav a:hover {
+  color: #ffcc00;
+}
+
+
+/* ------------------------- */
+/* GENERAL BODY & TEXT       */
+/* ------------------------- */
+
+body {
+  margin: 10px 20px 50px 20px; 
+  background-image: url('IMG-20251123-WA0022.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: Times New Roman, serif;
+  font-size: 50px;
+  text-align: center;
+  background: linear-gradient(to right, #FFD700, #FFA500);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.highlight {
+  color: #FFD700;
+  font-weight: bold;
+}
+
+li {
+  font-size: 20px; 
+  color: yellow;
+}
+
+
+/* ------------------------- */
+/* RESPONSIVE IMAGES         */
+/* ------------------------- */
+
+/* All images become responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Main profile image */
+.img-one {
+  width: 200px;
+  border-radius: 200px;
+  margin-top: 120px;  /* space so it doesn't touch the menu */
+}
+
+/* Small circular images */
+.img-two,
+.img-three,
+.img-four,
+.img-five,
+.img-six,
+.img-seven,
+.img-eight,
+.img-twenty,
+.img-twentyone,
+.img-twentythree,
+.img-twentyfour,
+.img-twentyfive {
+  width: 70px;
+  height: auto;
+  border-radius: 70px;
+  margin: 10px auto;
+}
+
+
+/* ------------------------- */
+/* BUTTON STYLE              */
+/* ------------------------- */
+
+button {
+  height: 50px;
+  width: 80px;
+  background-color: #87CEFA;
+  display: block;
+  margin: 10px;}
 
